@@ -1,11 +1,227 @@
 body{
-width:80%;
-margin:0 auto;
-border:1px solid black;
+margin:0;
+}
+#page-container{
+position:relative;
+}
+header{
+background-color:#210E68;
+display:flex;
+justify-content:space-between;
+color:#fff;
+flex-wrap:nowrap;
+position:fixed;
+width:100%;
+top:0;
+overflow:hidden;
+height:100px;
+z-index:1000;
+}
+.social ul{
+list-style:none;
+z-index:4;
+position:fixed;
+right:0;
+}
+.inicio1{
+margin-top:100px;
+padding:0em 7.2em;
+}
+input{
+padding:0.5em;
+font-size:1em;
+}
+input[type="text"]{
+width:85%
 }
 h1{
+margin-block-start:0;
+margin-block-end:0;
+font-size:7em;
 text-align:center;
+color:#210E68;
 }
-img{
+h2{
+text-align:center;
+color:#210E68;
+font-size:5em;
+margin-block-end:0;
+}
+p{
+text-align:justify;
+font-size:1.28em;
+}
+.bold{
+font-weight:bold;
+}
+section{
+padding:0em 7.2em 7em 7.2em;
+}
+.imgContainer{
+display:flex;
+justify-content:space-between;
+}
+#logo{
+width:100px;
+aspect-ratio:1/1;
+margin-left:3em;
+}
+.nav-links{
+list-style:none;
+padding-top:2.5em;
+margin-block-start: 0px;
+margin-block-end: 0px;
+padding-inline-start:0px;
+}
+.nav-links li{
+display:inline-block;
+padding:0px 20px;
+}
+.nav-links a{
+
+}
+li a{
+text-decoration:none;
+color:white;
+text-align:center;
+padding:5px;
+}
+li a:hover{
+color:yellow;
+}
+		/*cursos de computacion*/
+.cursosdecomputacion{
+display:grid;
+grid-template-columns:repeat(2,auto);
+grid-gap:10px;
+grid-template-rows:auto;
+}
+.cursosdecomputacion11{
+grid-row:1;
+grid-column:1;
+}
+.cursosdecomputacion12{
+grid-row:1;
+grid-column:2;
+}
+.cursosdecomputacion li{
+font-size:2em;
+}
+		/*Horarios y costos*/
+.horariosC{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+grid-template rows:auto;
+grid-gap:10px;
+}
+.horariosC11{
+grid-row:1;
+grid-column:1;
+}
+.horariosC12{
+grid-row:1;
+grid-column:2;
+}
+table{
+margin-top:4em;
+}
+td{
+width:300px;
+text-align:center;
+font-size:1.4em;
+}
+tdHeader{
+font-size:2em;
+}
+
+.primerseccion{
+margin-top:150px;
+}
+#imagen3{
+height:250px;
+}
+		/*nuestros valores*/
+.valores{
+margin-top:1.5em;
+display:grid;
+grid-template-columns:1fr 1fr;
+grid-template-rows:auto;
+grid-gap:5px;
+}
+.valores11{
+grid-row:1;
+grid-column:1;
+}
+.valores11 p{
+margin-block-start:0px;
+}
+.valores12{
+grid-row:1;
+grid-column:2;
+}
+span{
+color:#210E68;
+font-weight:bold;
+}
+		/*mision y vision*/
+.mision{
+margin-top:1.5em;
+display:grid;
+grid-gap:10px;
+grid-template-columns:300px 1fr;
+grid-template-rows:auto;
+}
+.mision11{
+grid-row:1;
+grid-column:1;
+}
+.mision12{
+grid-row:1;
+grid-column:2;
+}
+#volantemision{
+width:298px;
+}
+h3{
+margin-block-start:0;
+color:#210E68;
+font-size:1.5em;
+}
+
+/*ubicacion*/
+iframe{
 display:block;
+margin:1em auto;
+}
+.ubicacion{
+background-color:gray;
+padding:5px;
+}
+
+footer{
+width:100%;
+height:7em;
+background-color:#210E68;
+color:white;
+position:absolute;
+bottom:0;
+}
+label{
+font-size:1.3em;
+}
+.contacto input{
+display:block;
+width:100%;
+font-size:1.3em;
+}
+.contacto{
+border:1px solid black;
+width:740px;
+height:360px;
+margin:3em auto 9em auto;
+padding:1em;
+}
+textarea{
+display:block;
+font-size:1.3em;
 }
