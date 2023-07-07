@@ -3,21 +3,42 @@
 <head>
 <title>ENCI MEXICO</title>
 <link rel="stylesheet" href="style.css">
+<script src="scripts/menu.js" defer></script>
 </head>
 <body>
 <header>
 <img src="images/LOG.jpg" id="logo">
-<nav>
+<!--solo es mostrado en paginas pequenias-->
+<div class="oculto">
+<button class="menu"><img src="images/hamburger.png" id="hamburger"></button>
+</div>
+<!--fin de lo anterior-->
+<nav id="topMenu">
 <ul class="nav-links">
-<li><a href="index.html" id="li1">INICIO</a></li>
-<li><a href="cursosdecomp.html" id="li2">CURSOS DE COMPUTACI&Oacute;N</a></li>
-<li><a href="nuestrosvalores.html" id="li3">NUESTROS VALORES</a></li>
-<li><a href="misionyvision.html" id="li4">MISI&Oacute;N Y VISI&Oacute;N</a></li>
-<li><a href="ubicacion.html" id="li5">UBICACI&Oacute;N</a></li>
-<li><a href="contacto.html" id="li6">CONTACTO</a></li>
+<li><div class="botonLink"><span><a href="index.html" id="li1">INICIO</a></span></div></li>
+<li><div class="botonLink"><span><a href="cursosdecomp.html" id="li2">CURSOS DE COMPUTACI&Oacute;N</a></span></div></li>
+<li><div class="botonLink"><span><a href="nuestrosvalores.html" id="li3">NUESTROS VALORES</a></span></div></li>
+<li><div class="botonLink"><span><a href="misionyvision.html" id="li4">MISI&Oacute;N Y VISI&Oacute;N</a></span></div></li>
+<li><div class="botonLink"><span><a href="ubicacion.html" id="li5">UBICACI&Oacute;N</a></span></div></li>
+<li><div class="botonLink"><span><a href="contacto.html" id="li6">CONTACTO</a></span></div></li>
 </ul>
 </nav>
 </header>
+<!--solo es mostrado en pantallas pequenias y despues de hacer clic en el boton de menu-->
+<div class="noMostrar" id="elMenu">
+<ul>
+<li><a href="index.html">INICIO</a></li>
+<li><a href="cursosdecomp.html">CURSOS DE COMPUTACI&Oacute;N</a></li>
+<li><a href="nuestrosvalores.html">NUESTROS VALORES</a></li>
+<li><a href="misionyvision.html">MISI&Oacute;N Y VISI&Oacute;N</a></li>
+<li><a href="ubicacion.html">UBICACI&Oacute;N</a></li>
+<li><a href="contacto.html">CONTACTO</a></li>
+<li>&nbsp;</li>
+<li>&nbsp;</li>
+<li>&nbsp;</li>
+</ul>
+</div>
+<!--fin de lo anterior-->
 <nav class="social">
 <ul>
 <li><a href="https://www.facebook.com/martin.loma" target="_blank"><img src="images/facebookIcon.png" width="60px"></a></li>
@@ -40,5 +61,13 @@
 </div>
 <p class="cText">Reparaci&oacute;n de Computadoras, venta de Accesorios y Equipo de C&oacute;mputo</p>
 </section>
+<footer>
+<div class="footerIcons">
+<a href="https://www.facebook.com/martin.loma" target="_blank"><img src="images/fwhiteIcon.png" id="fw"></a>
+<a href="https://twitter.com/ENCIMEXICO" target="_blank"><img src="images/twhiteIcon.png" id="tw"></a>
+<a href="https://www.instagram.com/martin_loma/" target="_blank"><img src="images/iwhiteIcon.png" id="iw"></a>
+<a href="https://www.google.com.mx/maps/@19.4014441,-99.0067868,20.25z?hl=es" target="_blank"><img src="images/gwhiteIcon.png" id="gw"></a>
+</div>
+</footer>
 </body>
 </html>
