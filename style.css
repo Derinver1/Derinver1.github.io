@@ -469,7 +469,7 @@ height:4em;
 /*contacto*/
 		.contacto input{
 			display:block;
-			width:90%;
+			width:80%;
 			font-size:1.3em;
 			}
 			.contacto input[type="submit"]{
@@ -615,7 +615,7 @@ height:4em;
 /*contacto*/
 		.contacto input{
 			display:block;
-			width:90%;
+			width:80%;
 			font-size:1.3em;
 			}
 			.contacto input[type="submit"]{
@@ -761,7 +761,7 @@ width:480px;
 /*contacto*/
 		.contacto input{
 			display:block;
-			width:90%;
+			width:80%;
 			font-size:1.3em;
 			}
 			.contacto input[type="submit"]{
