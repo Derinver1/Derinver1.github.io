@@ -53,13 +53,16 @@
 <form action="http://www.google.com/search" method="get" target="_blank">
 <input type="submit" value="Buscador de ENCI"><input type="text" id="buscador" name="q">
 </form>
-<h2 id="searchH2">Contacto</h2>
-<br><br><br><br><br>
-<h2><a href="mailto:cecimtareas@hotmail.com?subject=Asunto, informes">&iexcl;Env&iacute;eme un correo!</a></h2>
-<br><br><br><br><br>
-<h2>55-57-31-73-24</h2>
+<form action="https://formsubmit.co/cecimtareas@hotmail.com" method="POST" class="contacto">
+	<label for="nombre">Nombre:</label><input type="text" id="nombre" name="name" required>
+	<label for="correo">Correo electr&oacute;nico:</label><input type="email" id="correo" name="email" required>
+	<label for="asunto">Asunto:</label><input type="text" id="asunto" name="subject">
+	<label for="mensaje">Mensaje:</label><textarea id="mensaje" name="comments" required></textarea>
+	<input type="submit" value="Enviar">
+</form>
+<label >
+</form>
 </section>
-
 <footer>
 <div class="footerIcons">
 <a href="https://www.facebook.com/martin.loma" target="_blank"><img src="images/fwhiteIcon.png" id="fw"></a>
